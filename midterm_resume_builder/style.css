@@ -1,18 +1,86 @@
 /* Reset css*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -20,26 +88,45 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 	margin-top: 60px;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -56,18 +143,18 @@ table {
 }
 
 .proSkills li {
-  margin-left: 42px;
+	margin-left: 42px;
 	list-style: disc;
 }
 
 
-.info	{
+.info {
 	text-align: center;
 	font-weight: bold;
 	padding: 15px;
 }
 
-.container{
+.container {
 	width: 800px;
 	margin: 0 auto;
 	border: 1px solid #ccc;
@@ -89,7 +176,7 @@ table {
 
 .workExperience span {
 	font-weight: bold;
-	
+
 }
 
 .language {
@@ -104,16 +191,20 @@ form {
 	padding: 30px;
 	border: 1px solid #ccc;
 	margin-top: 60px;
+	font-weight: bold;
+	font-size: 1.15rem;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(90deg, rgba(131, 58, 180, 0.19681375968356096) 0%, rgba(207, 253, 29, 0.2248249641653537) 50%, rgba(236, 252, 69, 0.300455216266194) 100%);
 }
 
 h1 {
 	font-weight: bold;
-	font-size: 24px ;
+	font-size: 24px;
 }
 
 hr {
 	background: #0062cc;
-    height: 1px;
+	height: 1px;
 }
 
 #plus-phone {
@@ -127,7 +218,7 @@ hr {
 	cursor: pointer;
 	position: relative !important;
 	left: 368px;
-    bottom: 31px;
+	bottom: 31px;
 }
 
 .minus-phone {
@@ -150,7 +241,5 @@ hr {
 
 #work-experience:not(:nth-of-type(1)) {
 	border-top: 3px dotted #aaa;
-	padding:10px 0;
+	padding: 10px 0;
 }
-
-

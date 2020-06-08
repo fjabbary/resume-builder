@@ -81,12 +81,12 @@ time,
 mark,
 audio,
 video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -101,145 +101,148 @@ hgroup,
 menu,
 nav,
 section {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
-	margin-top: 60px;
+  line-height: 1;
+  margin-top: 60px;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-	quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-	content: '';
-	content: none;
+  content: "";
+  content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Custom Css */
 
 .titleRS {
-	font-size: 25px;
-	color: rgb(28, 28, 177);
-	margin-bottom: 10px;
-	margin-top: 10px;
-	margin-left: 25px;
+  font-size: 25px;
+  color: rgb(28, 28, 177);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 25px;
 }
 
 .proSkills li {
-	margin-left: 42px;
-	list-style: disc;
+  margin-left: 42px;
+  list-style: disc;
 }
 
-
 .info {
-	text-align: center;
-	font-weight: bold;
-	padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
 }
 
 .container {
-	width: 800px;
-	margin: 0 auto;
-	border: 1px solid #ccc;
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding-bottom: 100px;
 }
 
 .profile li {
-	margin-left: 42px;
-	list-style: disc;
+  margin-left: 42px;
+  list-style: disc;
 }
 
 .education {
-	margin-left: 42px;
+  margin-left: 42px;
 }
 
 .workExperience {
-	margin-left: 42px;
+  margin-left: 42px;
 }
 
-
 .workExperience span {
-	font-weight: bold;
-
+  font-weight: bold;
 }
 
 .language {
-	margin-left: 42px;
-	margin-bottom: 35px;
+  margin-left: 42px;
+  margin-bottom: 35px;
 }
 
 /* =================== */
 form {
-	width: 60%;
-	margin: 0 auto;
-	padding: 30px;
-	border: 1px solid #ccc;
-	margin-top: 60px;
-	font-weight: bold;
-	font-size: 1.15rem;
-	background: rgb(131, 58, 180);
-	background: linear-gradient(90deg, rgba(131, 58, 180, 0.19681375968356096) 0%, rgba(207, 253, 29, 0.2248249641653537) 50%, rgba(236, 252, 69, 0.300455216266194) 100%);
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 1.15rem;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 0.19681375968356096) 0%,
+    rgba(207, 253, 29, 0.2248249641653537) 50%,
+    rgba(236, 252, 69, 0.300455216266194) 100%
+  );
 }
 
 h1 {
-	font-weight: bold;
-	font-size: 24px;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 hr {
-	background: #0062cc;
-	height: 1px;
+  background: #0062cc;
+  height: 1px;
 }
 
 #plus-phone {
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background: green;
-	color: #fff;
-	text-align: center;
-	line-height: 23px;
-	cursor: pointer;
-	position: relative !important;
-	left: 368px;
-	bottom: 31px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: green;
+  color: #fff;
+  text-align: center;
+  line-height: 23px;
+  cursor: pointer;
+  position: relative !important;
+  left: 368px;
+  bottom: 31px;
 }
 
 .minus-phone {
-	display: inline-block;
-	width: 25px;
-	height: 25px;
-	background: red;
-	color: #fff;
-	text-align: center;
-	line-height: 23px;
-	cursor: pointer;
-	position: relative !important;
-	left: 368px;
-	bottom: 31px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  line-height: 23px;
+  cursor: pointer;
+  position: relative !important;
+  left: 368px;
+  bottom: 31px;
 }
 
 .fa-plus {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 #work-experience:not(:nth-of-type(1)) {
-	border-top: 3px dotted #aaa;
-	padding: 10px 0;
+  border-top: 3px dotted #aaa;
+  padding: 10px 0;
 }

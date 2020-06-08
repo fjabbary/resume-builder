@@ -157,7 +157,13 @@ form.addEventListener('submit', function (e) {
 
 
   this.style.display = 'none'
-  document.querySelector('main').style.display = 'block'
+  document.getElementById("loader").classList.remove("d-none")
+  setTimeout(function () {
+    document.getElementById("loader").classList.add("d-none")
+    document.querySelector('main').style.display = 'block'
+
+  }, 3000)
+
   document.querySelector('.edit').classList.remove('d-none')
 
 })
